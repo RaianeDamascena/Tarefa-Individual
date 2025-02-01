@@ -310,6 +310,9 @@ PICO_STDIO_UART:BOOL=ON
 //Globally enable stdio USB
 PICO_STDIO_USB:BOOL=OFF
 
+//No help, variable specified on the command line.
+Python3_EXECUTABLE:UNINITIALIZED=c:/Users/raipa/AppData/Local/Programs/Python/Python312/python.exe
+
 //Value Computed by CMake
 led_matrix_project_BINARY_DIR:STATIC=C:/ATVindividual/build
 
@@ -517,11 +520,11 @@ DOXYGEN_DOT_EXECUTABLE-ADVANCED:INTERNAL=1
 DOXYGEN_EXECUTABLE-ADVANCED:INTERNAL=1
 FAMILY_MCUS:INTERNAL=RP2040
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[C:/Users/raipa/AppData/Local/Programs/Python/Python312/python.exe][cfound components: Interpreter ][v3.12.0()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[c:/Users/raipa/AppData/Local/Programs/Python/Python312/python.exe][cfound components: Interpreter ][v3.12.0()]
 PICO_BOOT_STAGE2_DIR:INTERNAL=C:/Users/raipa/.pico-sdk/sdk/1.5.1/src/rp2_common/boot_stage2
 PICO_CMAKE_PRELOAD_PLATFORM_DIR:INTERNAL=C:/Users/raipa/.pico-sdk/sdk/1.5.1/cmake/preload/platforms
 PICO_CMAKE_PRELOAD_PLATFORM_FILE:INTERNAL=C:/Users/raipa/.pico-sdk/sdk/1.5.1/cmake/preload/platforms/rp2040.cmake
-PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= C:/Users/raipa/.pico-sdk/sdk/1.5.1/src/rp2_common/cmsis C:/Users/raipa/.pico-sdk/sdk/1.5.1/src/rp2040/hardware_regs
+PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= C:/Users/raipa/.pico-sdk/sdk/1.5.1/src/rp2_common/cmsis C:/Users/raipa/.pico-sdk/sdk/1.5.1/src/rp2040/hardware_regs C:/Users/raipa/.pico-sdk/sdk/1.5.1/src/rp2_common/cmsis C:/Users/raipa/.pico-sdk/sdk/1.5.1/src/rp2040/hardware_regs C:/Users/raipa/.pico-sdk/sdk/1.5.1/src/rp2_common/cmsis C:/Users/raipa/.pico-sdk/sdk/1.5.1/src/rp2040/hardware_regs C:/Users/raipa/.pico-sdk/sdk/1.5.1/src/rp2_common/cmsis C:/Users/raipa/.pico-sdk/sdk/1.5.1/src/rp2040/hardware_regs C:/Users/raipa/.pico-sdk/sdk/1.5.1/src/rp2_common/cmsis C:/Users/raipa/.pico-sdk/sdk/1.5.1/src/rp2040/hardware_regs C:/Users/raipa/.pico-sdk/sdk/1.5.1/src/rp2_common/cmsis C:/Users/raipa/.pico-sdk/sdk/1.5.1/src/rp2040/hardware_regs
 PICO_DOXYGEN_PATHS:INTERNAL= C:/Users/raipa/.pico-sdk/sdk/1.5.1/src/common C:/Users/raipa/.pico-sdk/sdk/1.5.1/lib/cyw43-driver/src C:/Users/raipa/.pico-sdk/sdk/1.5.1/src/rp2_common C:/Users/raipa/.pico-sdk/sdk/1.5.1/src/rp2040
 PICO_NO_HARDWARE:INTERNAL=0
 PICO_ON_DEVICE:INTERNAL=1
@@ -535,11 +538,10 @@ _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 _Python3_Compiler_REASON_FAILURE:INTERNAL=
 //Development reason failure
 _Python3_Development_REASON_FAILURE:INTERNAL=
-//Path to a program.
-_Python3_EXECUTABLE:INTERNAL=C:/Users/raipa/AppData/Local/Programs/Python/Python312/python.exe
+_Python3_EXECUTABLE:INTERNAL=c:/Users/raipa/AppData/Local/Programs/Python/Python312/python.exe
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;0;32;64;;cp312-win_amd64;;C:\Users\raipa\AppData\Local\Programs\Python\Python312\Lib;C:\Users\raipa\AppData\Local\Programs\Python\Python312\Lib;C:\Users\raipa\AppData\Local\Programs\Python\Python312\Lib\site-packages;C:\Users\raipa\AppData\Local\Programs\Python\Python312\Lib\site-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=48a0b39062b7ce35a098d2232736d366
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;0;32;64;;cp312-win_amd64;;c:\Users\raipa\AppData\Local\Programs\Python\Python312\Lib;c:\Users\raipa\AppData\Local\Programs\Python\Python312\Lib;c:\Users\raipa\AppData\Local\Programs\Python\Python312\Lib\site-packages;c:\Users\raipa\AppData\Local\Programs\Python\Python312\Lib\site-packages
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=d8af66223ec9c11b6bddd7ceb2ba7170
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 
